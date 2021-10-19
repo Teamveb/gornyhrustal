@@ -302,6 +302,11 @@
         font-size: 75px;
     }
 
+    .second_inner {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
 }
 
 
@@ -431,6 +436,13 @@
         padding-right: 30px;
     }
 
+    .image_right {
+    width: 430px;
+    height: 591px;
+    margin-top: 70px;
+    margin-right: 59px;
+}
+
     
 }
 
@@ -449,6 +461,18 @@
         height: 591px;
         margin-top: 70px;
         margin-right: 149px;
+    }
+
+    .image_right {
+        width: 430px;
+        height: 591px;
+        margin-top: 70px;
+        margin-right: 1px;
+    }
+
+    .second_inner {
+        display: flex;
+        justify-content: space-evenly;
     }
 }
 
@@ -507,7 +531,7 @@
         width: 330px;
         height: 491px;
         margin-top: 70px;
-        margin-right: 176px;
+        margin-right: 5px;
     }
 
     .bottom_btn {
@@ -805,7 +829,17 @@
         left: 277px;
         transition: all .7s;
         color: #78C6E4;
+        padding-bottom: 45px;
+        padding-left: 53px;
+        padding-top: 30px;
+        margin-top: -18px;
+        border-radius: 40px;
     }
+    .header__menu-links {
+    text-align: center;
+    margin-left: -15px;
+    padding-top: 11px;
+}
 
     .second {
         background-image: url(../images/фон\ для\ телефона\ 2\ макс700.png);
