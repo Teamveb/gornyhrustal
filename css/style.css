@@ -1,0 +1,833 @@
+@import "css/fonts.css";
+
+.container{
+    background-image: url(../images/Фон\ для\ первой\ секции\ норм.svg);
+    min-height: 1078px;
+    min-width: 713px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header__menu-links{
+    text-align: center;
+    margin-left: 307px; 
+    padding-top: 11px;
+}
+
+.header__menu-link{
+    font-size: 40px;
+    color: #3A7E93;
+    text-decoration: none;
+    margin-right: 15px;
+    position: relative;
+    transition: all .7s;
+}
+
+
+.one::before{
+    content: "▲▲▲▲▲▲";
+    position: absolute;
+    color: #08A9E9 ;
+    display: none;
+    transition: all .7s;
+}
+
+.one:hover::before{
+    content: "▲▲▲▲▲▲";
+    position: absolute;
+    color: #08A9E9;
+    display: flex;
+    left: 1px;
+    top: 40px;
+}
+
+.two::before{
+    content: "▲▲▲▲";
+    position: absolute;
+    color: #08A9E9 ;
+    display: none;
+    transition: all .7s;
+}
+
+.two:hover::before{
+    content: "▲▲▲▲";
+    position: absolute;
+    color: #08A9E9;
+    display: flex;
+    left: 1px;
+    top: 40px;
+}
+
+.three::before{
+    content: "▲▲▲▲▲";
+    position: absolute;
+    color: #08A9E9 ;
+    display: none;
+    transition: all .7s;
+}
+
+.three:hover::before{
+    content: "▲▲▲▲▲";
+    position: absolute;
+    color: #08A9E9;
+    display: flex;
+    left: 1px;
+    top: 40px;
+}
+
+.four::before{
+    content: "▲▲▲";
+    position: absolute;
+    color: white;
+    display: none;
+    transition: all .7s;
+}
+
+.four:hover::before{
+    content: "▲▲▲";
+    position: absolute;
+    color: #08A9E9;
+    display: flex;
+    left: -7px;
+    top: 40px;
+    
+}
+
+.img_and_title{
+    display: flex;
+}
+
+.image_first{
+    margin-top: 320px;
+    margin-left: 30px;
+    width: 500px ;
+    height: 500px;
+}
+
+.image_title{
+    margin-top: 560px;
+    color: #1B4C4F;
+    font-size: 90px;
+    margin-left: -312px;
+    font-family: "SeoulHangangCondensed";
+}
+
+.image_title>span{
+    color: #28B1B9;
+   
+}
+
+.violet{
+    color: #724483;
+}
+
+.yellow{
+    color: #DDA95D;
+}
+
+.grey{
+    color: #B7BCCA;
+}
+
+.pink{
+    color: #F9C1D4;
+}
+
+.white{
+    color: #CACACB;
+}
+
+.inner__buttom{
+    margin-left: 60px;
+    margin-top: 115px;
+    border: none;
+    text-align: center;
+    border-radius: 35px;
+    
+}
+
+
+.inner__buttom_btn-link{
+    color: #090CD3;
+    text-decoration: none;
+    font-size: 25px;  
+    padding: 40px 80px;
+    border-radius: 25px;
+    background-image: url(../images/Фон\ для\ кнопки\ секция\ 1.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 100px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.inner__buttom{
+    background: none;
+}
+
+.second{
+    margin-bottom: 100px;
+}
+
+.second_title{
+    color: #A8704D;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-shadow: 3px 3px 3px;
+}
+
+.second_inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_inner_box-left{
+    display: flex;
+    margin-top: 55px;
+}
+
+.second_left-image{
+    width: 150px;
+    height: 655px;
+    margin-top: 70px;
+}
+
+
+.colors_miniral{
+    color: #4B4C51;
+    padding-bottom: 15px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.second_left-text{
+    margin-top: 37px;
+    font-size: 48px;
+    background: #E0E4F1;
+    border-radius: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+.image_right{
+   width: 730px;
+    height: 891px;
+    margin-top: 70px;
+}
+
+.second_inner_box-bottom{
+    margin-top: 81px;
+    margin-left: 27px;
+}
+
+.bottom_btn{
+    margin-left: 5px;
+    border-radius: 30px;
+    border: none;
+    background: none;
+}
+
+.bottom_btn-links{
+    background-image: url(../images/фон\ для\ кнопок\ вторая\ секция.jpg );
+    background-position: center;
+    padding: 40px 60px;
+    font-size: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #D65F8C;
+    background-size: cover;
+    font-family: 'Indie Flower', cursive;
+}
+
+@media(max-width: 1600px){
+    .image_first {
+        margin-top: 360px;
+        margin-left: 30px;
+        width: 400px;
+        height: 400px;
+    }
+
+    .image_title {
+        margin-top: 550px;
+    color: #1B4C4F;
+    font-size: 90px;
+    margin-left: -239px;
+    }
+
+    .inner__buttom_btn-link {
+        font-size: 20px;
+    }
+
+    .second_inner {
+        display: flex;
+        /* justify-content: space-evenly; */
+    }
+
+    .image_right {
+        width: 630px;
+        height: 791px;
+        margin-top: 70px;
+        margin-right: 130px;
+    }
+
+    .second_left-text {
+        margin-top: 37px;
+        font-size: 36px;
+        background: #E0E4F1;
+        border-radius: 40px;
+        padding-left: 30px;
+        padding-bottom: -40px;
+        padding-right: 30px;
+    }
+
+    .second_left-image {
+        width: 100px;
+        height: 500px;
+        margin-top: 70px;
+        margin-left: 40px;
+    }
+
+    .bottom_btn-links {
+       
+        padding: 30px 40px;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+    .second_title {
+        font-size: 75px;
+    }
+
+}
+
+
+@media(max-width: 1500px){
+    .image_title{
+        margin-top: 569px;
+    color: #1B4C4F;
+    font-size: 70px;
+    margin-left: -235px;
+    }
+
+    .image_first{
+        margin-top: 328px;
+    margin-left: 42px;
+    width: 400px;
+    height: 500px;
+    }
+
+    .inner__buttom_btn-link{
+        padding: 30px 70px;
+    }
+
+    .second_title {
+        font-size: 65px;
+    }
+
+    
+    
+}
+@media(max-width:1450px) {
+    .second_left-text{
+        font-size: 27px;
+    }
+
+    .second_left-image {
+        width: 100px;
+        height: 400px;
+        margin-top: 55px;
+        margin-left: 40px;
+    }
+
+    .bottom_btn-links {
+        padding: 20px 30px;
+        font-size: 30px;
+        margin-left: 1px;
+    }
+
+    .image_right {
+        width: 530px;
+        height: 691px;
+        margin-top: 70px;
+        margin-right: 220px;
+    }
+    
+}
+
+@media(max-width:1450px) {
+    .second_title {
+        font-size: 55px;
+    }
+}
+
+@media(max-width:1350px){
+    .inner__buttom_btn-link{
+        font-size: 16px;
+    }
+
+    .inner__buttom_btn-link{
+        font-size: 15px;
+    }
+
+    .bottom_btn-links {
+        padding: 20px 30px;
+        font-size: 18px;
+        margin-left: 1px;
+    }
+
+    .second_left-image {
+        width: 100px;
+        height: 308px;
+        margin-top: 55px;
+        margin-left: 40px;
+    }
+
+    .second_left-text {
+        font-size: 20px;
+    }
+
+    .second_left-text {
+        margin-top: 37px;
+        font-size: 36px;
+        background: #E0E4F1;
+        border-radius: 40px;
+        padding-left: 30px;
+        padding-bottom: -40px;
+        padding-right: 30px;
+    }
+
+    
+
+    .bottom_btn {
+        
+        border-radius: 30px;
+        border: none;
+       
+    }
+    
+    .second_title {
+        font-size: 35px;
+        /* text-align: left; */
+    }
+
+    .image_right {
+        width: 430px;
+        height: 591px;
+        margin-top: 70px;
+        margin-right: 308px;
+    }
+
+    .second_left-text {
+        margin-top: 37px;
+        font-size: 20px;
+        background: #E0E4F1;
+        border-radius: 40px;
+        padding-left: 30px;
+        padding-bottom: -40px;
+        padding-right: 30px;
+    }
+
+    
+}
+
+@media(max-width: 1200px){
+    .inner__buttom {
+        margin-left: 762px;
+       
+        padding-top: -69px;
+        border: none;
+        text-align: center;
+        border-radius: 35px;
+        margin-top: -30px;
+    }
+      .image_right {
+        width: 430px;
+        height: 591px;
+        margin-top: 70px;
+        margin-right: 149px;
+    }
+}
+
+@media(max-width:1100px) {
+    .image_title {
+        margin-top: 569px;
+        color: #1B4C4F;
+        font-size: 55px;
+        margin-left: -235px;
+    }
+
+    .image_first {
+        margin-top: 311px;
+        margin-left: 42px;
+        width: 400px;
+        height: 500px;
+    }
+
+    .inner__buttom {
+        margin-left: 626px;
+    }
+
+    .header__menu-links {
+        text-align: center;
+        margin-left: 39px;
+        padding-top: 11px;
+    }
+
+    .header__menu-link {
+        font-size: 30px;
+    }
+
+    .second_left-image {
+        width: 65px;
+        height: 241px;
+        margin-top: 45px;
+        margin-left: 40px;
+    }
+
+    .second_left-text {
+        margin-top: 37px;
+        font-size: 14px;
+        background: #E0E4F1;
+        border-radius: 40px;
+        padding-left: 30px;
+        padding-bottom: -40px;
+        padding-right: 30px;
+    }
+
+    .second_title {
+        font-size: 30px;
+        /* text-align: left; */
+    }
+
+    .image_right {
+        width: 330px;
+        height: 491px;
+        margin-top: 70px;
+        margin-right: 176px;
+    }
+
+    .bottom_btn {
+        border-radius: 30px;
+        border: none;
+        display: block;
+        margin-top: 55px;
+        margin-left: 20px;
+    }
+
+    .second_inner_box-bottom {
+        margin-top: 81px;
+        margin-left: 14px;
+        display: flex;
+    
+    }
+
+    .bottom_btn {
+        border-radius: 30px;
+        border: none;
+        display: flex;
+        margin-top: 15px;
+        margin-left: 27px;
+    }
+
+    .bottom_btn-links {
+        padding: 20px 21px;
+        font-size: 18px;
+        margin-left: -21px;
+        /* align-items: center; */
+        margin-top: -49px;
+    }
+
+    
+}
+
+@media(max-width: 1000px) {
+    .container{
+        background-image: url(../images/фон\ для\ телефона.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 1225px;
+    min-width: 713px;
+    }
+
+    .inner__buttom {
+        margin-left: 762px;
+        /* margin-bottom: -159px; */
+        padding-top: -69px;
+        border: none;
+        text-align: center;
+        border-radius: 35px;
+        bottom: -40px;
+    }
+
+    .image_title {
+        margin-top: 574px;
+        color: #1B4C4F;
+        font-size: 45px;
+        margin-left: -161px;
+    }
+
+    .image_first {
+        margin-top: 311px;
+        margin-left: 42px;
+        width: 300px;
+        height: 529px;
+    }
+
+    .img_and_title {
+        display: flex;
+        margin-top: -196px;
+    }
+
+    .inner__buttom_btn-link {
+        padding: 20px 60px;
+    }
+
+    .inner__buttom {
+        margin-left: 335px;
+    }
+
+   .header__menu-link {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:900px){
+    .image_first {
+        margin-top: 311px;
+        margin-left: 42px;
+        width: 200px;
+        height: 326px;
+    }
+
+    .image_title {
+        margin-top: 474px;
+        color: #1B4C4F;
+        font-size: 35px;
+        margin-left: -120px;
+    }
+
+    .inner__buttom {
+        margin-left: 276px;
+        margin-top: 181px;
+    }
+
+    .image_right {
+        display: none;
+    }
+
+    .bottom_btn-links {
+        padding: 20px 30px;
+        font-size: 18px;
+        margin-left: -19px;
+    }
+
+    .second_left-image {
+        width: 82px;
+        height: 280px;
+        margin-top: 45px;
+        margin-left: 241px;
+    }
+
+    .second_left-text {
+        margin-top: 37px;
+        font-size: 14px;
+        background: #E0E4F1;
+        border-radius: 40px;
+        padding-left: 30px;
+        padding-bottom: -40px;
+        padding-right: 30px;
+    }
+
+    .colors_miniral {
+        color: #4B4C51;
+        padding-bottom: 15px;
+        font-family: 'Indie Flower', cursive;
+        font-size: 17px;
+    }
+
+    .bottom_btn {
+        border-radius: 30px;
+        border: none;
+        display: block;
+        margin-top: 55px;
+        margin-left: 20px;
+        background: none;
+    }
+
+    .second_inner_box-bottom {
+        margin-top: -13px;
+        margin-left: 230px;
+        display: flex;
+        /* background: none; */
+    }
+
+    .second {
+        background-image: url(../images/фон\ для\ телефона\ 2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-width: 600px;
+        min-height: 731px;
+    }
+
+    .second_inner_box-bottom {
+        margin-top: -22px;
+        margin-left: 22px;
+        display: flex;
+        /* background: none; */
+    }
+
+    .second_left-image {
+        width: 82px;
+        height: 280px;
+        margin-top: 45px;
+        margin-left: 33px;
+    }
+
+    .second_inner {
+        display: flex;
+        /* justify-content: space-evenly; */
+        justify-content: center;
+    }
+
+}
+
+@media(max-width:800px) {
+    .container {
+        min-height: 1025px;
+        min-width: 713px;
+    }
+
+    .img_and_title {
+        display: flex;
+        margin-top: -286px;
+    }
+
+    .inner__buttom_btn-link {
+        padding: 20px 40px;
+        
+    }
+
+    .menu-burger_header span {
+        top: 20px;
+        left: 50px;
+    }
+
+    .header__nav.open-menu {
+        left: 277px;
+        transition: all .7s;
+        color: #78C6E4;
+    }
+
+    
+
+}
+
+@media(max-width:700px) {
+    .menu-burger_header{
+        position: relative;
+        background-image: url(../images/цитрин\ кристалл.png);
+        width: 30px;
+        height: 50px;
+        display: block;
+        margin-left: 30px;
+        transition: all .7s;
+    }
+
+    .menu-burger_header span, .menu-burger_header::after, .menu-burger_header::before{
+        content: url(../images/Друза\ кристаллов\ цитрин.png);
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        margin-left: 43px;
+    }
+
+    .menu-burger_header span{
+        top:20px;
+    }
+
+    .menu-burger_header::after, .menu-burger_header::before{
+        content: "";
+    }
+
+    .menu-burger_header::after{
+        bottom: 10px;
+    }
+
+    .menu-burger_header::before{
+        top: 10px;
+    }
+
+   
+
+    .header__menu{
+        display: block;
+    }
+
+    .header__nav {
+        display: block;
+        position: absolute;
+        top: 35px;
+        left: 162px;
+        /* padding-top: 6px; */
+        width: 200px;
+    }
+
+    .header__nav {
+        display: block;
+        position: absolute;
+        top: 35px;
+        left: 192px;
+        /* padding-top: 6px; */
+        width: 200px;
+        background: #28B1B9;
+        padding-bottom: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+        left: -100%;
+        transition: all .7s;
+    }
+
+    .header__menu-link {
+        font-size: 30px;
+        color: #99F5FB;
+        text-decoration: none;
+        margin-right: 15px;
+        position: relative;
+    }
+
+    .header__nav.open-menu {
+        left: 277px;
+        transition: all .7s;
+        color: #78C6E4;
+    }
+
+    .second {
+        background-image: url(../images/фон\ для\ телефона\ 2\ макс700.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-width: 600px;
+        min-height: 684px;
+    }
+
+    .header__menu-link:hover::before{
+        display: none;
+    }
+
+    .header__menu-link:active{
+        color: #d6d326;
+
+    }
+
+}
+
+
+
+
+
