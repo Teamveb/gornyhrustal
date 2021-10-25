@@ -307,6 +307,8 @@
         justify-content: space-evenly;
     }
 
+   
+
 }
 
 
@@ -446,6 +448,20 @@
     
 }
 
+@media(max-width:1400px) {
+    .second_inner {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .image_right {
+        width: 530px;
+        height: 691px;
+        margin-top: 70px;
+        margin-right: 6px;
+    }
+}
+
 @media(max-width: 1200px){
     .inner__buttom {
         margin-left: 762px;
@@ -474,6 +490,19 @@
         display: flex;
         justify-content: space-evenly;
     }
+
+    .second_inner {
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+    .image_right {
+        width: 430px;
+        height: 591px;
+        margin-top: 70px;
+        margin-right: 59px;
+    }
+
 }
 
 @media(max-width:1100px) {
